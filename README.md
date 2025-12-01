@@ -34,4 +34,4 @@ The analysis is based on a structured sales dataset included in the `Datasets` d
 *(Placeholder for dashboard screenshot - You can add a screenshot of the .pbix file here after opening it)*
 
 ---
-*Developed by Sai Vineeth Reddy Suravi as part of a data analytics portfolio.*
+*Developed by Sai Vineeth Reddy Suravi as part of a data analytics portfolio.* 
