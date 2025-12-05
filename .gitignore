@@ -1,0 +1,12 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Power BI temporary/backup files
+*.pbix.tmp
+*.pbit
+*.lock
+
+# Ignore local config
+.vscode/
+.idea/

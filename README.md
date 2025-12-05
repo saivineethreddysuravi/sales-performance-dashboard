@@ -1,37 +1,70 @@
 # Sales Performance Dashboard
 
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Data Analytics](https://img.shields.io/badge/Data%20Analytics-005C84?style=for-the-badge&logo=googleanalytics&logoColor=white)
+![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-FFA500?style=for-the-badge&logo=sap&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 **Author:** Sai Vineeth Reddy Suravi  
-**Tools:** Power BI, Data Visualization, Business Intelligence
+**Role:** Data Analyst / BI Specialist
 
-## Project Overview
+## 📊 Project Overview
 
-This project features a comprehensive **Sales Performance Dashboard** built using Power BI. It is designed to provide actionable insights into sales trends, product performance, and regional distribution. The dashboard enables stakeholders to track key performance indicators (KPIs) and make data-driven decisions to optimize sales strategies.
+This project features a comprehensive **Sales Performance Dashboard** built using **Microsoft Power BI**. It allows stakeholders to track key performance indicators (KPIs), visualize sales trends across different regions, and analyze product profitability.
 
-## Key Features
+The goal of this project was to transform raw sales transaction data into an interactive tool that supports strategic decision-making by identifying:
+*   High-growth regions and states.
+*   Top-performing product categories.
+*   Seasonal sales patterns.
+*   Customer payment preferences.
 
-*   **Interactive Visualizations:** Dynamic charts and graphs allowing users to filter by date, region, and product category.
-*   **Sales Trend Analysis:** Time-series analysis to identify seasonal trends and growth patterns.
-*   **Regional Performance:** Geographic heat maps and bar charts highlighting top-performing regions.
-*   **Product Insights:** Drill-down capabilities to analyze revenue and quantity sold by individual products.
+## 🚀 Key Features
 
-## Dataset
+*   **Dynamic Filtering:** Slicers for Date, Region, Category, and Payment Mode allow for deep-dive analysis.
+*   **KPI Cards:** Instant view of Total Sales, Total Profit, Quantity Sold, and Profit Margin.
+*   **Geospatial Analysis:** Interactive map visuals showing sales distribution across states and cities.
+*   **Trend Analysis:** Line charts depicting Month-over-Month (MoM) and Year-over-Year (YoY) growth.
+*   **Decomposition Tree:** Root cause analysis for profit drivers.
 
-The analysis is based on a structured sales dataset included in the `Datasets` directory. It includes transaction details such as:
-*   Order Date
-*   Product Category & Sub-Category
-*   Sales Revenue
-*   Quantity Sold
-*   Region/Location
+## 📂 Repository Structure
 
-## How to View
+```
+sales-performance-dashboard/
+├── Datasets/
+│   ├── Orders.csv          # Transaction metadata (Date, Customer, Location)
+│   ├── Details.csv         # Line-item metrics (Sales, Profit, Product)
+├── Background Image.png    # Custom UI background for the report
+├── Sales_Performance_Dashboard.pbix  # The main Power BI file
+├── DATA_DICTIONARY.md      # Detailed description of data fields
+├── LICENSE                 # MIT License
+└── README.md               # Project documentation
+```
 
-1.  Clone this repository.
-2.  Open `Sales_Performance_Dashboard.pbix` using **Microsoft Power BI Desktop**.
-3.  Interact with the visuals to explore the data.
+## 🛠️ Tools & Technologies
 
-## Visuals
+*   **Data Visualization:** Microsoft Power BI Desktop
+*   **Data Transformation:** Power Query (ETL)
+*   **Calculations:** DAX (Data Analysis Expressions)
+*   **Data Modeling:** Star Schema (One-to-Many relationships)
 
-*(Placeholder for dashboard screenshot - You can add a screenshot of the .pbix file here after opening it)*
+## 📈 Insights Summary
+
+*   **Electronics** is the highest revenue-generating category, driven largely by sub-categories like Phones and Printers.
+*   **COD (Cash on Delivery)** remains the preferred payment method, accounting for 40% of transactions.
+*   **Q4 (October - December)** shows a consistent spike in sales volume, indicating strong seasonality.
+*   **Maharashtra** and **Madhya Pradesh** are the top-performing states in terms of total profit.
+
+## 💻 How to Use
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/saivineethreddysuravi/sales-performance-dashboard.git
+    ```
+2.  **Open the Report:**
+    *   Launch **Microsoft Power BI Desktop**.
+    *   Open `Sales_Performance_Dashboard.pbix`.
+3.  **Refresh Data (Optional):**
+    *   If you modify the CSV files in the `Datasets` folder, click "Refresh" in Power BI to update the visuals.
 
 ---
-*Developed by Sai Vineeth Reddy Suravi as part of a data analytics portfolio.* 
+*Developed by Sai Vineeth Reddy Suravi.*
