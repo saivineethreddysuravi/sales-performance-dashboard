@@ -54,6 +54,22 @@ sales-performance-dashboard/
 *   **Q4 (October - December)** shows a consistent spike in sales volume, indicating strong seasonality.
 *   **Maharashtra** and **Madhya Pradesh** are the top-performing states in terms of total profit.
 
+## 🔮 Future Enhancements
+
+*   **Forecasting:** Implement Time Series Forecasting (ARIMA or Exponential Smoothing) to predict sales for the next quarter.
+*   **Customer Segmentation:** Use clustering techniques (K-Means) to identify high-value customer groups (RFM Analysis).
+*   **Row-Level Security (RLS):** Add role-based access for regional managers to view only their specific region's data.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions for improving the dashboard or find any issues, please feel free to:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/NewFeature`).
+3.  Commit your changes.
+4.  Push to the branch.
+5.  Open a Pull Request.
+
 ## 💻 How to Use
 
 1.  **Clone the repository:**
