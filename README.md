@@ -10,13 +10,17 @@
 
 ## 📊 Project Overview
 
-This project features a comprehensive **Sales Performance Dashboard** built using **Microsoft Power BI**. It allows stakeholders to track key performance indicators (KPIs), visualize sales trends across different regions, and analyze product profitability.
+**Problem:**  
+Stakeholders lacked a unified view of sales performance, relying on scattered Excel sheets which made identifying regional trends impossible.
 
-The goal of this project was to transform raw sales transaction data into an interactive tool that supports strategic decision-making by identifying:
-*   High-growth regions and states.
-*   Top-performing product categories.
-*   Seasonal sales patterns.
-*   Customer payment preferences.
+**Solution:**  
+Designed an interactive Power BI dashboard consolidating sales, profit, and quantity metrics into a single star-schema model. This solution transforms raw transaction data into an interactive tool that supports strategic decision-making.
+
+**Key Goals:**
+*   Identify high-growth regions and states.
+*   Highlight top-performing product categories.
+*   Analyze seasonal sales patterns.
+*   Understand customer payment preferences.
 
 ## 🚀 Key Features
 
